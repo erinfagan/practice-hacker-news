@@ -1,6 +1,6 @@
 ## Info
 
-Based on UI.dev Typescript course. Their **[Hack News](https://hn.ui.dev/)**, **[course src](https://github.com/uidotdev/typescript-course-curriculum/tree/solution)**.
+Based on UI.dev Typescript course. Their **[Hacker News site](https://hn.ui.dev/)** and **[the course src](https://github.com/uidotdev/typescript-course-curriculum/tree/solution)**.
 
 ###My Version
 
