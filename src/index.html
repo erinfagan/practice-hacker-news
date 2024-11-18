@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="../build/bundle.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <title>Hacker News</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><button id="top" class="nav-link active" onclick="window.newsFeed.showStories('top')">Top</button></li>
+                <li><button id="new" class="nav-link" onclick="window.newsFeed.showStories('new')">New</button></li>
+            </ul>
+            <button id="styleBtn" class="nav-link" style="font-size:30px" onclick="window.newsFeed.toggleStyle()">🔦</button>
+        </nav>
+        <div id="content"></div>
+    </div>
+</body>
+</html>

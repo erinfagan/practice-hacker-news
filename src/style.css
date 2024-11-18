@@ -1,0 +1,105 @@
+html, body {
+    margin:0;
+    height:100%;
+    width: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+      Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: black;
+    padding: 0;
+}
+
+.dark .nav-link:not(.active) {
+    color:  rgb(203, 203, 203);
+}
+
+.active, .link {
+    color: rgb(187, 46, 31);
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.post {
+    margin: 20px 0;
+}
+
+.post a:visited {
+    color: black;
+}
+
+.dark .post a:visited {
+    color: rgb(203, 203, 203);
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.meta-info {
+    display: flex;
+    margin-top: 5px;
+    color: gray;
+}
+
+.meta-info a {
+    color: black;
+}
+
+.dark .meta-info a {
+    color: #bebebe;
+}
+
+.meta-info span {
+    margin-right: 6px;
+}
+
+.dark {
+    color: #DADADA;
+    background: #1c2022;
+}
+
+.header {
+    margin-bottom: 5px;
+}
+
+.comment {
+    background: rgba(128, 128, 128, 0.14);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;;
+}
